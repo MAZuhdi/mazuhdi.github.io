@@ -4,56 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MAZuhdi Website</title>
-
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="css/main.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap"
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <section>
-      <div class="mainbox">
-        <h1>Muhammad Agung Zuhdi</h1>
+    <nav id="nav" class="nav">
+      <div class="brand" aria-label="Ini web portofolio Agung">
+        <h1 class="brand-title">Muhammad Agung Zuhdi</h1>
       </div>
-      <div class="secondarybox">
-        <h2>a Back End Engineer</h2>
+      <div class="menu">
+        <button class="toggle" id="toggle" aria-label="buka menu">
+          <i class="bi bi-card-list"></i>
+        </button>
+        <ul class="drawer" id="drawer">
+          <li class="menu-item"><a href="">Home</a></li>
+          <li class="menu-item"><a href="">Portofolios</a></li>
+          <li class="menu-item"><a href="">Completions</a></li>
+          <li class="menu-item"><a href="">Experience</a></li>
+        </ul>
       </div>
-    </section>
-    <section>
-      <div class="mainbox">
-        <form action="#" method="get">
-          <input type="text" name="search" id="search" />
-          <button type="submit">Search</button>
-        </form>
-      </div>
-    </section>
-
-    <div class="fullCard">
-      <div class="cardContent">
-        <div class="cardText">
-          <h4>Title of a card</h4>
-          <p>Hello everyone across the globe</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="fullCard">
-      <div class="cardContent">
-        <div class="cardText">
-          <h4>Title of a card</h4>
-          <p>Hello everyone across the globe</p>
-        </div>
-      </div>
-    </div>
+    </nav>
+    <script src="js/main.js"></script>
   </body>
 </html>
