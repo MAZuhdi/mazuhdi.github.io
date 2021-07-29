@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(15, 15, 26);
+  color: white;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: Eagle Lake, monospace;
+  /* font yg kedua itu backup kalo font pertama engga bisa diakses */
+  background-color: rgba(45, 45, 45, 0.1);
+  width: 50%;
+  text-align: center;
+}
+h2 {
+  font-size: 1rem;
+  font-family: Roboto, sans-serif;
+}
+.section {
+}
+
+.fullCard {
+  width: 245px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: 4px;
+}
+.cardContent {
+  padding: 10px;
+}
+.cardText {
+  margin-bottom: 30px;
+}
+
+.mainbox {
+  padding: 20px 20px 0 20px;
+  /* margin: -15px; */
+}
+.secondarybox {
+  text-align: center;
+  /* padding: 0px; */
+  /* margin-top: -50px;
+  margin: 0px; */
+}
+
+.see {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
