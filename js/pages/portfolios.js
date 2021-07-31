@@ -1,4 +1,4 @@
-function portfoliosHome({ id, title, role, type, cover, desc, tools, link }) {
+function portfoliosMain({ id, title, role, type, cover, desc, tools, link }) {
   return `
   <div class="detail-wrapper" id="${id}">
           <img
@@ -25,4 +25,4 @@ function portfoliosAside({ id, title, role, type }) {
     `;
 }
 
-export { portfoliosHome, portfoliosAside };
+export { portfoliosMain, portfoliosAside };

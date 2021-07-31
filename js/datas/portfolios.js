@@ -1,8 +1,9 @@
 const portfoliosDatas = [
   {
     id: 0,
+    // cover: "/img/completions/Sanbercode_LaravelWebDeveloperAdvance.png",
     cover: "https://dummyimage.com/1600x900/000/fff&text=MAZuhdi",
-    // cover: "http://127.0.0.1:5500/img/placeholder-img.png",
+    // cover: "/img/placeholder-img.png",
     title: "My First Project",
     role: "Back-end Developer",
     type: "Web Application",
