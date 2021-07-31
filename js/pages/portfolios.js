@@ -1,33 +1,26 @@
-function portfoliosHome() {
+function portfoliosHome({ id, title, role, type, cover, desc, tools, link }) {
   return `
-  <div class="detail-wrapper">
+  <div class="detail-wrapper" id="${id}">
           <img
-            class="detail-img"
-            src="https://dummyimage.com/1600x900/000/fff&text=MAZuhdi"
-            alt="Foto Portofolio"
-          />
-          <h3 class="section-heading">My Website</h3>
+            class="detail-img"src="${cover}"alt="Foto Portofolio"/>
+          <h3 class="section-heading">${title}</h3>
           <div class="detail-information">
-            <p class="project-role">Back-end Developer</p>
-            <p class="project-type">Web Application</p>
+            <p class="project-role">${role}</p>
+            <p class="project-type">${type}</p>
           </div>
-          <p class="project-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
-            quis voluptatum quidem reiciendis corporis praesentium modi nemo
-            consectetur quos numquam.
-          </p>
-          <p class="project-tools">Laravel, PostgreSQL</p>
-          <p class="project-link"><a href="#">Click Me!</a></p>
+          <p class="project-description">${desc}</p>
+          <p class="project-tools">${tools}</p>
+          <p class="project-link"><a href="${link}">Click Me!</a></p>
         </div>
   `;
 }
 
-function portfoliosAside() {
+function portfoliosAside({ id, title, role, type }) {
   return `
-    <div class="item-card-list" tabindex="0">
-    <h4 class="item-card-heading">Lorem ipsum dolor sit amet.</h4>
-    <p class="item-card-role">Lorem ipsum dolor sit.</p>
-    <p class="item-card-type">Lorem ipsum.</p>
+    <div class="item-card-list" tabindex="0" id=${id}>
+    <h4 class="item-card-heading" id=${id}>${title}</h4>
+    <p class="item-card-role" id=${id}>${role}</p>
+    <p class="item-card-type" id=${id}>${type}</p>
   </div>
     `;
 }

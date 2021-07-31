@@ -72,12 +72,12 @@ body {
     Static gabisa dikasih atribut top, bottom, left, right
     Relative, absolute, fixed, sticky
 */
-  width: 100%;
   position: sticky;
   top: 0px;
   background-color: var(--primarycolor);
   color: var(--light);
   /* width: 100vw; vw = viewport width */
+  width: 100%;
   display: flex;
   padding: 0 5vw;
   height: 70px;
@@ -214,9 +214,9 @@ body {
 }
 
 .detail-wrapper {
-  width: 100%;
   position: sticky;
-  top: 20px;
+  top: 100px;
+  width: 100%;
 }
 
 .detail-wrapper .detail-img {
@@ -303,5 +303,21 @@ body {
 
   .detail-information {
     grid-template-columns: 1fr;
+  }
+}
+
+.fade {
+  animation: FadeInOut 1.5s infinite ease-in-out;
+}
+
+@keyframes FadeInOut {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
   }
 }

@@ -1,39 +1,48 @@
 const homeMain = `
 <div class="profile-section-wrapper">
-    <img
-        class="profile-img"
-        src="https://dummyimage.com/250x250/000/fff"
-        alt="Foto Profil"
-    />
-    <div class="profile-detail-wrapper">
+  <img
+    class="profile-img"
+    src="https://dummyimage.com/250x250/000/fff"
+    alt="Foto Profil"
+  />
+  <div class="profile-detail-wrapper">
     <h3 class="section-heading">Muhammad Agung Zuhdi</h3>
     <p class="profile-role">Back End Developer</p>
     <div class="profile-contacts-wrapper">
-        <p class="profile-address">
+      <p class="profile-address">
         <i class="bi bi-geo-alt-fill"></i>&nbsp; Cikarang
-        </p>
-        <p class="profile-email">
+      </p>
+      <p class="profile-email">
         <i class="bi bi-envelope-fill"></i>&nbsp; mazuhdi08@gmail.com
-        </p>
+      </p> 
     </div>
     <p style="margin-bottom: 20px; text-align: justify">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Voluptatum cumque deleniti laborum, cum libero quos quis veniam
-        laudantium impedit facere itaque doloremque iusto esse deserunt
-        vitae provident. Rem, optio aperiam!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Voluptatum cumque deleniti laborum, cum libero quos quis veniam
+      laudantium impedit facere itaque doloremque iusto esse deserunt
+      vitae provident. Rem, optio aperiam!
     </p>
     <div class="profile-socials-wrapper">
-        <a href="" aria-label="Facebook saya"
+      <a
+        href="https://www.linkedin.com/in/mazuhdi"
+        aria-label="Linkedin saya"
+        ><i class="bi bi-linkedin"></i></i
+      ></a>
+      <a
+        href="https://www.facebook.com/janissary.agung/"
+        aria-label="Facebook saya"
         ><i class="bi bi-facebook"></i
-        ></a>
-        <a href="" aria-label="Instagram saya"
+      ></a>
+      <a
+        href="https://www.instagram.com/mazuhdi01/"
+        aria-label="Instagram saya"
         ><i class="bi bi-instagram"></i
-        ></a>
-        <a href="" aria-label="Github saya"
+      ></a>
+      <a href="https://github.com/MAZuhdi" aria-label="Github saya"
         ><i class="bi bi-github"></i
-        ></a>
+      ></a>
     </div>
-    </div>
+  </div>
 </div>
 `;
 const homeAside = `
@@ -43,7 +52,7 @@ const homeAside = `
             <li>
               <span class="institution-name">IPB University</span>
               <span class="major">Computer Engineering (2018 - 2021)</span>
-              <span class="degree">Associate's Degree x GPA 3.88</span>
+              <span class="degree">Associate's Degree • GPA 3.88</span>
             </li>
             <li>
               <span class="institution-name">SMAN 1 Cikarang Selatan</span>
@@ -56,6 +65,7 @@ const homeAside = `
           <h3 class="section-heading">Skills</h3>
           <ul class="skill-wrapper">
             <li>PHP</li>
+            <li>•</li>
             <li>Phyton</li>
             <li>C</li>
             <li>IoT</li>

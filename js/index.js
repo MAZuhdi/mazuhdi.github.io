@@ -2,7 +2,8 @@ import { toggleMenu, drawerMenu, headElement } from "./dom-elements/index.js";
 
 import headInnerHtml from "./elements/head.js";
 import { navigation } from "./configs/router.js";
-
+import closeDrawer from "./utils/close-drawer.js";
+import skeleton from "./elements/skeleton.js";
 console.log("Connected!");
 
 toggleMenu.addEventListener("click", function (e) {
@@ -26,10 +27,12 @@ headElement.innerHTML += headInnerHtml;
 
 window.addEventListener("load", (e) => {
   console.log(window.location.hash);
-  navigation(window.location.hash.substr(2));
+  navigation(window.location.hash.substr(1));
 });
 
 window.addEventListener("click", function (e) {
   console.log(e.target.id);
-  navigation(e.target.id);
+  navigation("/" + e.target.id);
 });
+
+closeDrawer();
