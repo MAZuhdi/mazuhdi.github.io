@@ -52,7 +52,7 @@ const homeAside = `
     <li>
       <span class="institution-name">IPB University</span>
       <span class="major">Computer Engineering (2018 - 2021)</span>
-      <span class="degree">Associate's Degree • GPA 3.88</span>
+      <span class="degree">Associate Degree • GPA 3.88</span>
     </li>
     <li>
       <span class="institution-name">SMAN 1 Cikarang Selatan</span>
