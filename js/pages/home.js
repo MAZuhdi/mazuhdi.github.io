@@ -10,7 +10,7 @@ const homeMain = `
     <p class="profile-role">Back End Developer</p>
     <div class="profile-contacts-wrapper">
       <p class="profile-address">
-        <i class="bi bi-geo-alt-fill"></i>&nbsp; Cikarang
+        <i class="bi bi-geo-alt-fill"></i>&nbsp; Cikarang, Bekasi Regency
       </p>
       <p class="profile-email">
         <i class="bi bi-envelope-fill"></i>&nbsp; mazuhdi08@gmail.com
