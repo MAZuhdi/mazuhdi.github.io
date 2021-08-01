@@ -68,6 +68,15 @@ body {
 .nav .brand .brand-title:hover {
   color: var(--accent);
 }
+
+.desktop-title {
+  display: block;
+}
+
+.mobile-title {
+  display: none;
+}
+
 .nav {
   /* position 
     Static gabisa dikasih atribut top, bottom, left, right
@@ -267,6 +276,13 @@ body {
 }
 
 @media (max-width: 768px) {
+  .desktop-title {
+    display: none;
+  }
+
+  .mobile-title {
+    display: block;
+  }
   .nav .menu .toggle {
     display: block;
     height: 44px;
