@@ -2,7 +2,7 @@ function completionsMain({ id, title, publisher, year, cover, desc, link }) {
   return `
     <div class="detail-wrapper" id="${id}">
             <img
-              class="detail-img"src="${cover}"alt="Foto Completions"/>
+            class="detail-img lazyload" data-src="${cover}" src="img/placeholder.jpg" alt="Foto Completions"/>
             <h3 class="section-heading">${title}</h3>
             <div class="detail-information">
               <p class="project-role">${publisher}</p>

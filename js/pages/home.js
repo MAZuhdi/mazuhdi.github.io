@@ -1,8 +1,9 @@
 const homeMain = `
 <div class="profile-section-wrapper">
     <img
-    class="profile-img"
-    src="/img/Potrait.jpg"
+    class="profile-img lazyload"
+    data-src="/img/Potrait.jpg"
+    src="/img/placeholder.jpg"
     alt="Foto Profil"
     />
   <div class="profile-detail-wrapper">
@@ -83,8 +84,8 @@ const homeAside = `
     <li>Phyton</li>
   </ul>
 </div>
-<div class="skill-section-wrapper">
-  <h3 class="section-heading">Tools & Technologies</h3>
+<div class="skill-section-wrapper ">
+  <h3 style="margin-top: 10px;" class="section-heading">Tools & Technologies</h3>
   <ul class="skill-wrapper">
     <li>Laravel</li>
     <li>CodeIgniter</li>

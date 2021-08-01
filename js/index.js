@@ -1,9 +1,15 @@
-import { toggleMenu, drawerMenu, headElement } from "./dom-elements/index.js";
+import {
+  toggleMenu,
+  drawerMenu,
+  headElement,
+  menuItems,
+} from "./dom-elements/index.js";
 
 import headInnerHtml from "./elements/head.js";
 import { navigation } from "./configs/router.js";
 import closeDrawer from "./utils/close-drawer.js";
-import skeleton from "./elements/skeleton.js";
+import "./utils/lazysizes.min.js";
+
 console.log("Connected!");
 
 toggleMenu.addEventListener("click", function (e) {
@@ -30,9 +36,11 @@ window.addEventListener("load", (e) => {
   navigation(window.location.hash.substr(1));
 });
 
-window.addEventListener("click", function (e) {
-  console.log(e.target.id);
-  navigation("/" + e.target.id);
-});
+for (let index = 0; index < menuItems.length; index++) {
+  menuItems[index].addEventListener("click", function (e) {
+    // console.log(e.target.id);
+    navigation("/" + e.target.id);
+  });
+}
 
 closeDrawer();

@@ -2,7 +2,7 @@ function portfoliosMain({ id, title, role, type, cover, desc, tools, link }) {
   return `
   <div class="detail-wrapper" id="${id}">
           <img
-            class="detail-img"src="${cover}"alt="Foto Portofolio"/>
+            class="detail-img lazyload" data-src="${cover}" src="img/placeholder.jpg" alt="Foto Portofolio"/>
           <h3 class="section-heading">${title}</h3>
           <div class="detail-information">
             <p class="project-role">${role}</p>
