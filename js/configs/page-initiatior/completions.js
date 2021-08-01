@@ -4,6 +4,7 @@ import showDetailItem from "../../utils/show-detail-item.js";
 import completionsDatas from "../../datas/completions.js";
 
 function completionsInitiator() {
+  document.title = "Completions Page";
   let completionsElement = "";
   completionsDatas.forEach(function (completion) {
     // console.log(completion);
