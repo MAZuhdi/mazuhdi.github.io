@@ -18,10 +18,7 @@ const homeMain = `
       </p> 
     </div>
     <p style="margin-bottom: 20px; text-align: justify">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Voluptatum cumque deleniti laborum, cum libero quos quis veniam
-      laudantium impedit facere itaque doloremque iusto esse deserunt
-      vitae provident. Rem, optio aperiam!
+      Saya Muhammad Agung Zuhdi, seorang fresh graduate D3 Teknik Komputer yang berpassion di dunia IT, saya tertarik dengan belajar hal-hal baru, Tekun dan berfokus dalam pengerjaan yang cepat dan tepat. Saya bisa bekerja secara tim maupun individu.
     </p>
     <div class="profile-socials-wrapper">
       <a
