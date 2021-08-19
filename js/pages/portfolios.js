@@ -9,8 +9,8 @@ function portfoliosMain({ id, title, role, type, cover, desc, tools, link }) {
             <p class="project-type">${type}</p>
           </div>
           <p class="project-description">${desc}</p>
-          <p class="project-tools">${tools}</p>
-          <p class="project-link"><a href="${link}">Click Me!</a></p>
+          <p class="project-tools">Technologies: ${tools}</p>
+          <p class="project-link"><a href="${link}">Project Demo</a></p>
         </div>
   `;
 }

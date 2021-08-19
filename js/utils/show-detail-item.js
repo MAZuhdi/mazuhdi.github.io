@@ -1,7 +1,9 @@
 import completionsDatas from "../datas/completions.js";
 import portfoliosDatas from "../datas/portfolios.js";
+import experiencesDatas from "../datas/experiences.js";
 import { portfoliosMain } from "../pages/portfolios.js";
 import { completionsMain } from "../pages/completions.js";
+import { experiencesMain } from "../pages/experiences.js";
 
 function showDetailItem(id) {
   // const indexArray = id;
@@ -30,6 +32,18 @@ function showDetailItem(id) {
         title: completionData.title,
         year: completionData.year,
         link: completionData.link,
+      });
+    case "/experiences":
+      const experiencesData = experiencesDatas[id];
+      return experiencesMain({
+        id: experiencesData.id,
+        cover: experiencesData.cover,
+        desc: experiencesData.desc,
+        link: experiencesData.link,
+        publisher: experiencesData.publisher,
+        title: experiencesData.title,
+        year: experiencesData.year,
+        link: experiencesData.link,
       });
     default:
       break;

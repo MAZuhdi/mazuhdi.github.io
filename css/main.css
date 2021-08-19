@@ -275,11 +275,18 @@ body {
   background-color: var(--light);
 }
 
+.project-tools,
+.project-link {
+  padding-top: 10px;
+}
+
 @media (max-width: 768px) {
   .desktop-title {
     display: none;
   }
-
+  .main {
+    height: 110vh;
+  }
   .mobile-title {
     display: block;
   }
@@ -345,6 +352,9 @@ body {
 
   .detail-information {
     grid-template-columns: 1fr;
+  }
+  .bot-padding {
+    padding-bottom: 50px;
   }
 }
 

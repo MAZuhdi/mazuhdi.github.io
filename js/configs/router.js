@@ -2,6 +2,7 @@ import portfoliosSkeleton from "../elements/portfolios-skeleton.js";
 import homeInitiator from "../configs/page-initiatior/home.js";
 import portfoliosInitiator from "../configs/page-initiatior/portfolios.js";
 import completionsInitiator from "../configs/page-initiatior/completions.js";
+import experiencesInitiator from "../configs/page-initiatior/experiences.js";
 
 function navigation(pageName) {
   setTimeout(() => {
@@ -22,6 +23,13 @@ function navigation(pageName) {
         setTimeout(() => {
           completionsInitiator();
         }, 1000);
+        break;
+      case "/experiences":
+        portfoliosSkeleton();
+        setTimeout(() => {
+          experiencesInitiator();
+        }, 1000);
+        break;
       default:
         // window.location.hash = "/home";
         break;

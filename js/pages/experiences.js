@@ -1,20 +1,19 @@
-function completionsMain({ id, title, publisher, year, cover, desc, link }) {
+function experiencesMain({ id, title, publisher, year, cover, desc, link }) {
   return `
     <div class="detail-wrapper" id="${id}">
             <img
-            class="detail-img lazyload" data-src="${cover}" src="img/placeholder.jpg" alt="Foto Completions"/>
+            class="detail-img lazyload" data-src="${cover}" src="img/placeholder.jpg" alt="Foto experiences"/>
             <h3 class="section-heading">${title}</h3>
             <div class="detail-information">
               <p class="project-role">${publisher}</p>
               <p class="project-type">${year}</p>
             </div>
             <p class="project-description">${desc}</p>
-            <p class="project-link"><a href="${link}">See credential</a></p>
           </div>
     `;
 }
 
-function completionsAside({ id, title, publisher, year }) {
+function experiencesAside({ id, title, publisher, year }) {
   return `
       <div class="item-card-list" tabindex="0" id=${id}>
       <h4 class="item-card-heading" id=${id}>${title}</h4>
@@ -24,4 +23,4 @@ function completionsAside({ id, title, publisher, year }) {
       `;
 }
 
-export { completionsMain, completionsAside };
+export { experiencesMain, experiencesAside };

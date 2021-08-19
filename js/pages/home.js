@@ -83,7 +83,7 @@ const homeAside = `
 </div>
 <div class="skill-section-wrapper ">
   <h3 style="margin-top: 10px;" class="section-heading">Tools & Technologies</h3>
-  <ul class="skill-wrapper">
+  <ul class="skill-wrapper bot-padding">
     <li>Laravel</li>
     <li>CodeIgniter</li>
     <li>REST API</li>

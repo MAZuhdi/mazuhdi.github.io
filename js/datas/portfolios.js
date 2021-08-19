@@ -2,18 +2,19 @@ const portfoliosDatas = [
   {
     id: 0,
     // cover: "/img/completions/Sanbercode_LaravelWebDeveloperAdvance.png",
-    cover: "https://dummyimage.com/1600x900/000/fff&text=MAZuhdi",
+    cover:
+      "https://esto.my.id/files/images/portfolios-mockup/original-size/sipema.jpg",
     // cover: "/img/heavy-img.jpg",
     // cover: "/img/placeholder-img.png",
-    title: "My First Project (To be uploaded)",
+    title: "Simulasi Pembelajaran Matematika (SIPEMA)",
     role: "Back-end Developer",
     type: "Web Application",
-    desc: `Coming Soon`,
+    desc: `SIPEMA is web based e-learning. This project built for the final project in Software Engineering subject in 5th semester.`,
     // desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
     // quis voluptatum quidem reiciendis corporis praesentium modi nemo
     // consectetur quos numquam.`,
-    tools: "Laravel, MySQL",
-    link: "mazuhdi.github.io",
+    tools: "CodeIgniter4, MySQL",
+    link: "https://sipemaapp.herokuapp.com/",
   },
   // {
   //   id: 1,
