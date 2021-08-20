@@ -5,7 +5,7 @@ const experiencesDatas = [
     title: "IoT Developer Intern",
     publisher: "Diskominfo Kota Bogor",
     year: "Feb 2021 - Mar 2021",
-    desc: `Developing an IoT device and Website to monitor temperature and humidity fot Data Center Room`,
+    desc: `Developing an IoT device and Website to monitor temperature and humidity for Data Center Room`,
   },
   {
     id: 1,
