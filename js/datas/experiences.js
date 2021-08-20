@@ -34,11 +34,9 @@ const experiencesDatas = [
     publisher: "Upgrading 2020 - Micro IT Community IPB",
     year: "2020",
     desc: `Sebagai Wakil Ketua Pelaksana, saya bertugas untuk : </br> </p>
-    <ul>
-      <li>• membantu Ketua Pelaksana dalam menjalankan tugasnya.</li>
-      <li>• Mengkoordinasikan divisi-divisi panitia dalam menjalankan tugasnya.</li>
-      <li>• Menerima laporan dari kepala divisi dan memberi masukan.</li>
-    </ul>`,
+      • membantu Ketua Pelaksana dalam menjalankan tugasnya.</br>
+      • Mengkoordinasikan divisi-divisi panitia dalam menjalankan tugasnya.</br>
+      • Menerima laporan dari kepala divisi dan memberi masukan.</br>`,
   },
   {
     id: 4,
@@ -57,11 +55,9 @@ const experiencesDatas = [
     publisher: "Company Visit 2019 - Micro IT Community IPB",
     year: "2018 - 2019",
     desc: `<p>Sebagai anggota dari Divisi Logistik, saya bertugas untuk : </br> </p>
-            <ul>
-              <li>• Mendata dan menyiapkan kebutuhan logistik yang diperlukan.</li>
-              <li>• Berkoordinasi dengan divisi lain mengenai kebutuhan logistik.</li>
-              <li>• Memastikan ketersediaan logistik saat acara berlangsung.</li>
-            </ul>
+              • Mendata dan menyiapkan kebutuhan logistik yang diperlukan.</br>
+              • Berkoordinasi dengan divisi lain mengenai kebutuhan logistik.</br>
+              • Memastikan ketersediaan logistik saat acara berlangsung.</br>
            `,
   },
 ];
