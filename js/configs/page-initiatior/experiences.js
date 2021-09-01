@@ -4,7 +4,7 @@ import showDetailItem from "../../utils/show-detail-item.js";
 import experiencesDatas from "../../datas/experiences.js";
 
 function experiencesInitiator() {
-  document.title = "experiences Page";
+  document.title = "MAZ | Experiences Page";
   let experiencesElement = "";
   experiencesDatas.forEach(function (experiences) {
     // console.log(experiences);

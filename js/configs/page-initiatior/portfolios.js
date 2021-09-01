@@ -4,7 +4,7 @@ import showDetailItem from "../../utils/show-detail-item.js";
 import portfoliosDatas from "../../datas/portfolios.js";
 
 function portfoliosInitiator() {
-  document.title = "Portfolios Page";
+  document.title = "MAZ | Portfolios Page";
   let portfoliosElement = "";
   portfoliosDatas.forEach(function (portfolio) {
     // console.log(portfolio);

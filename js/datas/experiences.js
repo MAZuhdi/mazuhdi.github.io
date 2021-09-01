@@ -5,8 +5,26 @@ const experiencesDatas = [
     title: "IoT Developer Intern",
     publisher: "Diskominfo Kota Bogor",
     year: "Feb 2021 - Mar 2021",
-    desc: `Developing an IoT device and Website to monitor Temperature 
-           and Humidity for Data Center Room`,
+    desc: `Developing IoT device and Web to Monitor Temperature and Humidity of Data Center Room </br>
+    </br>
+    IoT Device :</br>
+    - Use C as programming language</br>
+    - ESP8266 Based project</br>
+    - Wireless Communication through WiFi</br>
+    - Use 4 sensors : 3 sensors to detect Temperature of Server Rack, and 1 sensor to reads Temperature & Humidity of Overall Data Center Room</br>
+    - Sends an Alert through Buzzer speaker</br>
+    - Sends sensor data every 1 minute to Web</br>
+    </br>
+    Web :</br>
+    - PHP (Laravel 7) Based Project</br>
+    - Different User permission feature</br>
+    - Sends an Alert through Pop-up Alert</br>
+    - Sends an Alert through Telegram Message</br>
+    - Sends an Alert through Email</br>
+    - Shows current Temperature & Humidity</br>
+    - Store Historical data of Temperature & Humidity</br>
+    - Generate report of historical data</br>
+    `,
   },
   {
     id: 1,
@@ -34,7 +52,7 @@ const experiencesDatas = [
     publisher: "Upgrading 2020 - Micro IT Community IPB",
     year: "2020",
     desc: `Sebagai Wakil Ketua Pelaksana, saya bertugas untuk : </br> </p>
-      • membantu Ketua Pelaksana dalam menjalankan tugasnya.</br>
+      • Membantu Ketua Pelaksana dalam menjalankan tugasnya.</br>
       • Mengkoordinasikan divisi-divisi panitia dalam menjalankan tugasnya.</br>
       • Menerima laporan dari kepala divisi dan memberi masukan.</br>`,
   },
