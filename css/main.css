@@ -23,7 +23,7 @@
   --secondarycolor: #00afb9;
   --accent: #f07167;
   --light: #fdfcdc;
-  --dark: #0d1f22;
+  --dark: #272424;
 }
 /* css reset biar margin dan padding default ga ganggu*/
 * {
@@ -36,6 +36,7 @@ html,
 body {
   font-family: "Roboto", sans-serif;
   scroll-behavior: smooth;
+  color: #272424;
 }
 
 /* 
@@ -360,7 +361,7 @@ body {
 
 @media (max-width: 500px) {
   .main {
-    height: 110vh;
+    height: 160vh;
   }
 }
 
