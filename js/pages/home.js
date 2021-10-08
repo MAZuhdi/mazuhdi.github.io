@@ -86,6 +86,7 @@ const homeAside = `
   <ul class="skill-wrapper bot-padding">
     <li>Laravel</li>
     <li>CodeIgniter</li>
+    <li>Node.js</li>
     <li>REST API</li>
     <li>Git</li>
     <li>MySQL</li>
