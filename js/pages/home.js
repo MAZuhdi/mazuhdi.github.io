@@ -2,7 +2,7 @@ const homeMain = `
 <div class="profile-section-wrapper">
     <img
     class="profile-img lazyload"
-    data-src="/img/Potrait4.jpg"
+    data-src="/img/Potrait5.jpg"
     src="/img/placeholder.jpg"
     alt="Foto Profil"
     />
