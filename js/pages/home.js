@@ -39,6 +39,7 @@ const homeMain = `
       <a href="https://github.com/MAZuhdi" aria-label="Github saya"
         ><i class="bi bi-github"></i
       ></a>
+      
     </div>
   </div>
 </div>
@@ -78,7 +79,7 @@ const homeAside = `
     <li><strong>PHP</strong></li>
     <li>JavaScript</li>
     <li>C</li>
-    <li>Phyton</li>
+    <li>Python</li>
   </ul>
 </div>
 <div class="skill-section-wrapper ">
