@@ -1,3 +1,4 @@
+import homeSkeleton from "../elements/home-skeleton.js";
 import portfoliosSkeleton from "../elements/portfolios-skeleton.js";
 import homeInitiator from "../configs/page-initiatior/home.js";
 import portfoliosInitiator from "../configs/page-initiatior/portfolios.js";
@@ -9,7 +10,10 @@ function navigation(pageName) {
     switch (pageName) {
       case "":
       case "/home":
-        homeInitiator();
+        homeSkeleton();
+        setTimeout(() => {
+          homeInitiator();
+        }, 1000);
         break;
       case "/portfolios":
         portfoliosSkeleton();
