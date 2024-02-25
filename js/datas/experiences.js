@@ -1,7 +1,33 @@
 const experiencesDatas = [
   {
     id: 0,
-    cover: "/img/experiences/DiskominfoKotaBogor.png",
+    cover: "/img/experiences/ITM.png",
+    title: "Application Support",
+    publisher: "PT. Indo Tambangraya Megah, Tbk. (ITM)",
+    year: "Apr 2022 - Now",
+    desc: `(Under PT. Mitra Integrasi Informatika)</br>
+    • Provide comprehensive support to end users of custom web applications, promptly resolving issues and ensuring smooth functionality.</br>
+    • Bug Fixing of .NET and Node.js applications.</br>
+    • Develop and implement a Simple Monitoring App using Microsoft PowerApps, enabling real-time tracking and analysis of critical application metrics.</br>
+    • Create efficient and automated workflows using Microsoft Power Automate, facilitating regular data backups, repetitive tasks, and proactive notification alerts.</br>
+    • Harness the power of Microsoft Power BI to transform Excel data into visually appealing and insightful Data Dashboards, empowering stakeholders to make data-driven decisions.</br>
+    • Conduct thorough manual testing of web applications to identify and report bugs, ensuring the highest level of quality and user satisfaction.</br>`,
+  },
+  {
+    id: 1,
+    cover: "/img/experiences/BenihBelajar.png",
+    title: "Backend Developer",
+    publisher: "Benih Belajar",
+    year: "Nov 2022 - Des 2023",
+    desc: `• Developed and maintained robust APIs using Node.js (typescript) and MySQL to facilitate seamless data communication and integration.</br>
+    • Conducted thorough testing of APIs to ensure they met business requirements and functional specifications.</br>
+    • Build reusable code and libraries for future use</br>
+    • Implemented normalization techniques to improve application capability, specifically with username handling.</br>
+    `,
+  },
+  {
+    id: 2,
+    cover: "/img/experiences/DiskominfoKotaBogor_All.jpg",
     title: "IoT Developer Intern",
     publisher: "Diskominfo Kota Bogor",
     year: "Feb 2021 - Mar 2021",
@@ -27,7 +53,7 @@ const experiencesDatas = [
     `,
   },
   {
-    id: 1,
+    id: 3,
     cover: "/img/experiences/Micro_Anggota2020.png",
     title: "Web Master Member",
     publisher: "Micro IT Community IPB",
@@ -37,7 +63,7 @@ const experiencesDatas = [
            organisasi dan meberikan kontribusi kepada himpunan dalam hal Web.`,
   },
   {
-    id: 2,
+    id: 4,
     cover: "/img/experiences/Micro_CompanyVisit2020-min.png",
     title: "Chief Committee",
     publisher: "Company Visit 2020 - Micro IT Community IPB",
@@ -46,7 +72,7 @@ const experiencesDatas = [
            seluruh Divisi dan Badan Pengurus Harian.`,
   },
   {
-    id: 3,
+    id: 5,
     cover: "/img/experiences/Micro_Upgrading2020-min.png",
     title: "Vice Chief Committee",
     publisher: "Upgrading 2020 - Micro IT Community IPB",
@@ -57,7 +83,7 @@ const experiencesDatas = [
       • Menerima laporan dari kepala divisi dan memberi masukan.</br>`,
   },
   {
-    id: 4,
+    id: 6,
     cover: "/img/experiences/Micro_Anggota2019.png",
     title: "Web Master Member",
     publisher: "Micro IT Community IPB",
@@ -67,7 +93,7 @@ const experiencesDatas = [
            organisasi dan meberikan kontribusi kepada himpunan dalam hal Web.`,
   },
   {
-    id: 5,
+    id: 7,
     cover: "/img/experiences/Micro_CompanyVisit2019-min.png",
     title: "Logistic Division",
     publisher: "Company Visit 2019 - Micro IT Community IPB",

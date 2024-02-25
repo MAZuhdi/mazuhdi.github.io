@@ -1,6 +1,35 @@
 const portfoliosDatas = [
   {
     id: 0,
+    cover: "/img/experiences/DiskominfoKotaBogor.png",
+    title: "DaCenMon - Data Center Monitoring",
+    role: "Back-end Developer",
+    type: "Web Application - IoT Device",
+    desc: `Developing IoT device and Web to Monitor Temperature and Humidity of Data Center Room </br>
+    </br>
+    IoT Device :</br>
+    - Use C as programming language</br>
+    - ESP8266 Based project</br>
+    - Wireless Communication through WiFi</br>
+    - Use 4 sensors : 3 sensors to detect Temperature of Server Rack, and 1 sensor to reads Temperature & Humidity of Overall Data Center Room</br>
+    - Sends an Alert through Buzzer speaker</br>
+    - Sends sensor data every 1 minute to Web</br>
+    </br>
+    Web :</br>
+    - PHP (Laravel 7) Based Project</br>
+    - Different User permission feature</br>
+    - Sends an Alert through Pop-up Alert</br>
+    - Sends an Alert through Telegram Message</br>
+    - Sends an Alert through Email</br>
+    - Shows current Temperature & Humidity</br>
+    - Store Historical data of Temperature & Humidity</br>
+    - Generate report of historical data</br>
+    `,
+    tools: "PHP, Laravel, MySQL, C, ESP8266",
+    link: "",
+  },
+  {
+    id: 1,
     cover:
       "https://halamanpersonal-images.my.id/images/6363-halaman-personal-mockup.png",
     title: "Halaman Personal",
@@ -21,7 +50,7 @@ const portfoliosDatas = [
     link: "https://www.halamanpersonal.my.id/",
   },
   {
-    id: 1,
+    id: 2,
     // cover: "/img/completions/Sanbercode_LaravelWebDeveloperAdvance.png",
     cover:
       "https://esto.my.id/files/images/portfolios-mockup/original-size/sipema.jpg",

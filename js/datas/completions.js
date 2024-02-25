@@ -1,6 +1,34 @@
 const completionsDatas = [
   {
     id: 0,
+    cover: "/img/completions/Dicoding_BelajarDasarDevOps.png",
+    title: "Belajar Dasar-Dasar DevOps",
+    publisher: "Dicoding Indonesia",
+    year: "2022",
+    desc: `Kelas ini ditujukan bagi Developer, IT Operations, atau individu yang ingin memahami seluk-beluk DevOps sebagai langkah untuk memperbaiki proses pengembangan aplikasi yang selama ini mereka geluti. Di akhir kelas, siswa dapat memahami bagaimana kultur dan praktik DevOps mampu meningkatkan nilai teknis serta bisnis perusahaan.`,
+    link: "https://www.dicoding.com/certificates/07Z6G84MRXQR",
+  },
+  {
+    id: 1,
+    cover: "/img/completions/Dicoding_CloudPractitionerEssentials.png",
+    title: "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
+    publisher: "Dicoding Indonesia",
+    year: "2022",
+    desc: `Kelas ditujukan bagi pemula yang ingin memulai karirnya di bidang cloud computing dengan mengacu pada standar kompetensi internasional milik AWS. Di akhir kelas, siswa dapat memahami AWS Cloud dengan segala jenis layanan, infrastruktur global, hingga harganya.`,
+    link: "https://www.dicoding.com/certificates/07Z6RY6G2PQR",
+  },
+  {
+    id: 2,
+    cover:
+      "/img/completions/Oracle_OracleCertifiedFoundationsAssociateDatabase.png",
+    title: "Oracle Certified Foundations Associate, Database",
+    publisher: "Oracle",
+    year: "2021",
+    desc: `Oracle Certified Foundations Associate, Database candidates have demonstrated understanding of the different types of database models and components. Also, they are knowledgeable of database components, concepts and design, implementation of business roles, SQL language and queries, and ERD modeling and languages to manage data and transactions.`,
+    link: "https://www.credly.com/badges/0bc0f9f9-6a8f-4d1e-8eb2-666f67ec578f?source=linked_in_profile",
+  },
+  {
+    id: 3,
     cover:
       "/img/completions/Dicoding_BelajarMembuatAplikasiBack-EnduntukPemula.png",
     title: "Belajar Membuat Aplikasi Back-End untuk Pemula",
@@ -10,7 +38,7 @@ const completionsDatas = [
     link: "https://www.dicoding.com/certificates/NVP718MG4PR0",
   },
   {
-    id: 1,
+    id: 4,
     cover: "/img/completions/Sanbercode_LaravelWebDeveloperAdvance.png",
     title: "Advance Laravel Web Developer",
     publisher: "SanberCode",
@@ -19,7 +47,7 @@ const completionsDatas = [
     link: "https://sanbercode.com/sertifikat/generate/1ddea43f-d65e-4b98-9d73-cbb8951b44a7",
   },
   {
-    id: 2,
+    id: 5,
     cover: "/img/completions/Coursera_TheArduinoPlatformandCProgramming.png",
     title: "The Arduino Platform and C Programming",
     publisher: "Coursera",
@@ -28,7 +56,7 @@ const completionsDatas = [
     link: "https://www.coursera.org/account/accomplishments/verify/849BK882KWF3",
   },
   {
-    id: 3,
+    id: 6,
     cover: "/img/completions/DataCamp_IntroductioToProgrammingUsingPhyton.png",
     title: "Introduction to Programming Using Python",
     publisher: "DataCamp",
