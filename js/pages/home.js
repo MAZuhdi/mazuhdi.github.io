@@ -18,7 +18,7 @@ const homeMain = `
       </p> 
     </div>
     <p style="margin-bottom: 20px; text-align: justify">
-      Saya Muhammad Agung Zuhdi, seorang fresh graduate D3 Teknik Komputer yang berpassion di dunia IT, saya tertarik dengan belajar hal-hal baru, Tekun dan berfokus dalam pengerjaan yang cepat dan tepat. Saya bisa bekerja secara tim maupun individu.
+    Results-driven PHP & Node.js Backend Developer with a strong focus on API development, testing, and code optimization. Skilled in designing and maintaining high-quality APIs that meet business needs and enhance application capabilities. Committed to delivering scalable and efficient solutions through reusable code and libraries. Passionate about continuous learning and staying up-to-date with industry trends. Seeking new opportunities to contribute to innovative projects and collaborate with cross-functional teams.
     </p>
     <div class="profile-socials-wrapper">
       <a
@@ -32,7 +32,7 @@ const homeMain = `
         ><i class="bi bi-facebook"></i
       ></a>
       <a
-        href="https://www.instagram.com/mazuhdi01/"
+        href="https://www.instagram.com/mazuhdi_/"
         aria-label="Instagram saya"
         ><i class="bi bi-instagram"></i
       ></a>
@@ -49,6 +49,11 @@ const homeAside = `
   <h3 class="section-heading">Education</h3>
   <ul class="education-wrapper">
     <li>
+      <span class="institution-name">BINUS University</span>
+      <span class="major">Information System (2022 - 2024 (Expected))</span>
+      <span class="degree">Undergraduate Degree • GPA 3.9</span>
+    </li>
+    <li>
       <span class="institution-name">IPB University</span>
       <span class="major">Computer Engineering (2018 - 2021)</span>
       <span class="degree">Associate Degree • GPA 3.88</span>
@@ -64,10 +69,6 @@ const homeAside = `
   <h3 class="section-heading">Organizations</h3>
   <ul class="education-wrapper">
     <li>
-      <span class="institution-name">Karang Taruna Cikarang Selatan</span>
-      <span class="major">Treasurer (2021 - Present)</span>
-    </li>
-    <li>
       <span class="institution-name">HIMAVO Micro IT Community IPB</span>
       <span class="major">Web Master Division (2018 - 2020)</span>
     </li>
@@ -76,8 +77,8 @@ const homeAside = `
 <div class="skill-section-wrapper">
   <h3 class="section-heading">Programming Languages</h3>
   <ul class="skill-wrapper">
+    <li><strong>JavaScript/TypeScript</strong></li>
     <li><strong>PHP</strong></li>
-    <li>JavaScript</li>
     <li>C</li>
     <li>Python</li>
   </ul>
@@ -85,6 +86,8 @@ const homeAside = `
 <div class="skill-section-wrapper ">
   <h3 style="margin-top: 10px;" class="section-heading">Tools & Technologies</h3>
   <ul class="skill-wrapper bot-padding">
+    <li>Express.js</li>
+    <li>Node.js</li>
     <li>Laravel</li>
     <li>CodeIgniter</li>
     <li>Node.js</li>
